@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SmartWatcher.Services.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FailureArchivePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\SmartWatcher\archive\failure\</Value>
+    </Setting>
+    <Setting Name="MailAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SmtpMailServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="SmtpUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SmtpPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SendOnFailure" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SendOnSuccess" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MailDisplayName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Integration Service</Value>
+    </Setting>
+    <Setting Name="ReadTries" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="SuccessArchivePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\SmartWatcher\archive\success\</Value>
+    </Setting>
+    <Setting Name="SmaplePlugin_WatchPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\SmartWatcher\SmaplePlugin\</Value>
+    </Setting>
+    <Setting Name="EnableTimer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Interval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

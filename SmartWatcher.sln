@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWatcher", "SmartWatcher\SmartWatcher.csproj", "{35919C8F-745B-410B-B2EE-B1F2114795AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugIn", "PlugIn\PlugIn.csproj", "{9DCDAD41-2611-4805-A31D-659497017418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamplePlugin", "SamplePlugin\SamplePlugin.csproj", "{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{698499E6-FEC0-4A5C-AED8-8726233737DC}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\ICSharpCode.SharpZipLib.dll = Lib\ICSharpCode.SharpZipLib.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4net", "Log4net", "{A70119DF-FC95-433E-B641-12A4B838C230}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Log4net\log4net.dll = Lib\Log4net\log4net.dll
+		Lib\Log4net\log4net.xml = Lib\Log4net\log4net.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginsLibrary", "PluginsLibrary", "{126FE607-C211-4AFD-BAEC-C3A9E09274D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartActions", "SmartActions\SmartActions.csproj", "{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SmartWatcher\\SmartWatcher.csproj
+		SccProjectName1 = SmartWatcher
+		SccLocalPath1 = SmartWatcher
+		SccProjectUniqueName2 = SamplePlugin\\SamplePlugin.csproj
+		SccProjectName2 = SamplePlugin
+		SccLocalPath2 = SamplePlugin
+		SccProjectUniqueName3 = PlugIn\\PlugIn.csproj
+		SccProjectName3 = PlugIn
+		SccLocalPath3 = PlugIn
+		SccProjectUniqueName4 = SmartActions\\SmartActions.csproj
+		SccProjectName4 = SmartActions
+		SccLocalPath4 = SmartActions
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Debug|x86.ActiveCfg = Debug|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Debug|x86.Build.0 = Debug|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Release|Any CPU.ActiveCfg = Release|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Release|x86.ActiveCfg = Release|x86
+		{35919C8F-745B-410B-B2EE-B1F2114795AB}.Release|x86.Build.0 = Release|x86
+		{9DCDAD41-2611-4805-A31D-659497017418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9DCDAD41-2611-4805-A31D-659497017418}.Release|x86.ActiveCfg = Release|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3A40F8DC-27F4-4EDF-9BC0-C129095624D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A315C6B1-26FE-41F4-BEFD-19B14C65FF19}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A70119DF-FC95-433E-B641-12A4B838C230} = {698499E6-FEC0-4A5C-AED8-8726233737DC}
+	EndGlobalSection
+EndGlobal
